@@ -1,0 +1,13 @@
+from django.urls import path, re_path
+from django.views.generic import RedirectView
+
+from api.views import TestView #, Predict1View, Control1View
+
+app_name = 'api'
+
+urlpatterns = [
+    re_path(r'^hi/?$', TestView.as_view(), name='test'),  # /test, /test/ 모두 되게 하려면 이렇게...
+    re_path(r'^test/?$', TestView.as_view(), name='test'),  # /test, /test/ 모두 되게 하려면 이렇게...
+    #re_path(r'^predict1/?$', Predict1View.as_view(), name='predict1'),  # /test, /test/ 모두 되게 하려면 이렇게...
+    #re_path(r'^control1/?$', Control1View.as_view(), name='control1'),  # /test, /test/ 모두 되게 하려면 이렇게...
+]

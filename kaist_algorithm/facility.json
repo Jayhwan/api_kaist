@@ -1,0 +1,976 @@
+{
+  "facilities": {
+    "Heatpump-EV": {
+      "ch1": {
+        "gwid": 35,
+        "url": "http://10.1.1.31:8084",
+        "path": "/ports/sb/1/meter/ch1",
+        "desc": "EHV-3 전체 고압부"
+      },
+      "ch2": {
+        "gwid": 35,
+        "url": "http://10.1.1.31:8084",
+        "path": "/ports/sb/1/meter/ch2",
+        "desc": "LV-1 전체 저압부"
+      },
+      "ch3": {
+        "gwid": 35,
+        "url": "http://10.1.1.31:8084",
+        "path": "/ports/sb/1/meter/ch3",
+        "desc": "LV-2 37세대 전체"
+      },
+      "ch4": {
+        "gwid": 35,
+        "url": "http://10.1.1.31:8084",
+        "path": "/ports/sb/1/meter/ch4",
+        "desc": "LV-3 히트펌프"
+      },
+      "ch5": {
+        "gwid": 35,
+        "url": "http://10.1.1.31:8084",
+        "path": "/ports/sb/1/meter/ch5",
+        "desc": "LV-1/LPN-A-M 19세대 A존"
+      },
+      "ch6": {
+        "gwid": 35,
+        "url": "http://10.1.1.31:8084",
+        "path": "/ports/sb/1/meter/ch6",
+        "desc": "LV-1/LPN-B-M 19세대 B존"
+      },
+      "ch7": {
+        "gwid": 35,
+        "url": "http://10.1.1.31:8084",
+        "path": "/ports/sb/1/meter/ch7",
+        "desc": "LV-1/LPN-C-M 19세대 C존"
+      },
+      "ch8": {
+        "gwid": 35,
+        "url": "http://10.1.1.31:8084",
+        "path": "/ports/sb/1/meter/ch8",
+        "desc": "LV-1/LPN-FC 소방관련"
+      },
+      "ch9": {
+        "gwid": 35,
+        "url": "http://10.1.1.31:8084",
+        "path": "/ports/sb/1/meter/ch9",
+        "desc": "LV-1/LPN-OL 야외조명"
+      },
+      "ch10": {
+        "gwid": 35,
+        "url": "http://10.1.1.31:8084",
+        "path": "/ports/sb/1/meter/ch10",
+        "desc": "LV-1/LPN-B1F 지하1층 조명"
+      },
+      "ch11": {
+        "gwid": 35,
+        "url": "http://10.1.1.31:8084",
+        "path": "/ports/sb/1/meter/ch11",
+        "desc": "LV-1/LPN-1F 1층 조명"
+      },
+      "ch12": {
+        "gwid": 35,
+        "url": "http://10.1.1.31:8084",
+        "path": "/ports/sb/1/meter/ch12",
+        "desc": "LV-1/LPN-2F 2층 조명"
+      },
+      "ch13": {
+        "gwid": 35,
+        "url": "http://10.1.1.31:8084",
+        "path": "/ports/sb/1/meter/ch13",
+        "desc": "LV-1/LPN-SERVER 서버실 조명"
+      },
+      "ch14": {
+        "gwid": 35,
+        "url": "http://10.1.1.31:8084",
+        "path": "/ports/sb/1/meter/ch14",
+        "desc": "LV-1/PV-Inverter A 태양광"
+      },
+      "ch15": {
+        "gwid": 35,
+        "url": "http://10.1.1.31:8084",
+        "path": "/ports/sb/1/meter/ch15",
+        "desc": "LV-1/PV-Inverter B 태양광"
+      },
+      "ch16": {
+        "gwid": 35,
+        "url": "http://10.1.1.31:8084",
+        "path": "/ports/sb/1/meter/ch16",
+        "desc": "LV-1/PV-Inverter C 태양광"
+      },
+      "ch17": {
+        "gwid": 35,
+        "url": "http://10.1.1.31:8084",
+        "path": "/ports/sb/1/meter/ch17",
+        "desc": "LV-2/LPN-MDF"
+      },
+      "ch18": {
+        "gwid": 35,
+        "url": "http://10.1.1.31:8084",
+        "path": "/ports/sb/1/meter/ch18",
+        "desc": " LV-2/P-EC 공용 전기차 충전"
+      },
+      "ch19": {
+        "gwid": 35,
+        "url": "http://10.1.1.31:8084",
+        "path": "/ports/sb/1/meter/ch19",
+        "desc": "LV-2/PV-Inverter D 태양광"
+      },
+      "vm3": {
+        "gwid": 35,
+        "url": "http://10.1.1.31:8084",
+        "path": "/ports/vm/3/meter/ch1",
+        "desc": "전체부하 (히트펌프 제외)"
+      },
+      "vm4": {
+        "gwid": 35,
+        "url": "http://10.1.1.31:8084",
+        "path": "/ports/vm/4/meter/ch1",
+        "desc": "세대 부하/생산 합계"
+      }
+    },
+    "LPN-B1F": {
+      "ch1": {
+        "gwid": 31,
+        "url": "http://10.100.1.16",
+        "path": "/ports/LPNB1FGEM/1/meter/ch1",
+        "desc": "LPN-B1-MAIN"
+      },
+      "ch2": {
+        "gwid": 31,
+        "url": "http://10.100.1.16",
+        "path": "/ports/LPNB1FGEM/1/meter/ch2",
+        "desc": "SPARE"
+      },
+      "ch3": {
+        "gwid": 31,
+        "url": "http://10.100.1.16",
+        "path": "/ports/LPNB1FGEM/1/meter/ch3",
+        "desc": "R05 전열부하"
+      },
+      "ch4": {
+        "gwid": 31,
+        "url": "http://10.100.1.16",
+        "path": "/ports/LPNB1FGEM/1/meter/ch4",
+        "desc": "R03 전열부하"
+      },
+      "ch5": {
+        "gwid": 31,
+        "url": "http://10.100.1.16",
+        "path": "/ports/LPNB1FGEM/1/meter/ch5",
+        "desc": "R01 전등부하"
+      },
+      "ch6": {
+        "gwid": 31,
+        "url": "http://10.100.1.16",
+        "path": "/ports/LPNB1FGEM/1/meter/ch6",
+        "desc": "LPN-B1-1"
+      },
+      "ch7": {
+        "gwid": 31,
+        "url": "http://10.100.1.16",
+        "path": "/ports/LPNB1FGEM/1/meter/ch7",
+        "desc": "L01 전등부하"
+      },
+      "ch8": {
+        "gwid": 31,
+        "url": "http://10.100.1.16",
+        "path": "/ports/LPNB1FGEM/1/meter/ch8",
+        "desc": "R02 전열부하"
+      },
+      "ch9": {
+        "gwid": 31,
+        "url": "http://10.100.1.16",
+        "path": "/ports/LPNB1FGEM/1/meter/ch9",
+        "desc": "R04 전열부하"
+      },
+      "ch10": {
+        "gwid": 31,
+        "url": "http://10.100.1.16",
+        "path": "/ports/LPNB1FGEM/1/meter/ch10",
+        "desc": "R06 전열부하"
+      },
+      "ch11": {
+        "gwid": 31,
+        "url": "http://10.100.1.16",
+        "path": "/ports/LPNB1FGEM/1/meter/ch11",
+        "desc": "R08 전열부하"
+      },
+      "ch12": {
+        "gwid": 31,
+        "url": "http://10.100.1.16",
+        "path": "/ports/LPNB1FGEM/1/meter/ch12",
+        "desc": "P01 원격검침"
+      },
+      "ch13": {
+        "gwid": 31,
+        "url": "http://10.100.1.16",
+        "path": "/ports/LPNB1FGEM/1/meter/ch13",
+        "desc": "P02 유도등"
+      },
+      "ch14": {
+        "gwid": 31,
+        "url": "http://10.100.1.16",
+        "path": "/ports/LPNB1FGEM/1/meter/ch14",
+        "desc": "R08 전열부하"
+      },
+      "ch15": {
+        "gwid": 31,
+        "url": "http://10.100.1.16",
+        "path": "/ports/LPNB1FGEM/1/meter/ch15",
+        "desc": "R07 전열부하"
+      },
+      "ch16": {
+        "gwid": 31,
+        "url": "http://10.100.1.16",
+        "path": "/ports/LPNB1FGEM/1/meter/ch16",
+        "desc": "P04 IDF 전원"
+      },
+      "ch17": {
+        "gwid": 31,
+        "url": "http://10.100.1.16",
+        "path": "/ports/LPNB1FGEM/1/meter/ch17",
+        "desc": "P03 TV장치함"
+      },
+      "ch18": {
+        "gwid": 31,
+        "url": "http://10.100.1.16",
+        "path": "/ports/LPNB1FGEM/1/meter/ch18",
+        "desc": "P05 수신반"
+      }
+    },
+    "LPN-1F": {
+      "ch1": {
+        "gwid": 32,
+        "url": "http://10.100.1.17",
+        "path": "/ports/LPN1FGEM/1/meter/ch1",
+        "desc": "PN-1F-MAIN"
+      },
+      "ch2": {
+        "gwid": 32,
+        "url": "http://10.100.1.17",
+        "path": "/ports/LPN1FGEM/1/meter/ch2",
+        "desc": "LPN-CAFE"
+      },
+      "ch3": {
+        "gwid": 32,
+        "url": "http://10.100.1.17",
+        "path": "/ports/LPN1FGEM/1/meter/ch3",
+        "desc": "P03 분리수거장"
+      },
+      "ch4": {
+        "gwid": 32,
+        "url": "http://10.100.1.17",
+        "path": "/ports/LPN1FGEM/1/meter/ch4",
+        "desc": "LPN-SC"
+      },
+      "ch5": {
+        "gwid": 32,
+        "url": "http://10.100.1.17",
+        "path": "/ports/LPN1FGEM/1/meter/ch5",
+        "desc": "R01 전열부하"
+      },
+      "ch6": {
+        "gwid": 32,
+        "url": "http://10.100.1.17",
+        "path": "/ports/LPN1FGEM/1/meter/ch6",
+        "desc": "R03 전열부하"
+      },
+      "ch7": {
+        "gwid": 32,
+        "url": "http://10.100.1.17",
+        "path": "/ports/LPN1FGEM/1/meter/ch7",
+        "desc": "R05 전열부하"
+      },
+      "ch8": {
+        "gwid": 32,
+        "url": "http://10.100.1.17",
+        "path": "/ports/LPN1FGEM/1/meter/ch8",
+        "desc": "R07 전열부하"
+      },
+      "ch9": {
+        "gwid": 32,
+        "url": "http://10.100.1.17",
+        "path": "/ports/LPN1FGEM/1/meter/ch9",
+        "desc": "R09 전열부하"
+      },
+      "ch10": {
+        "gwid": 32,
+        "url": "http://10.100.1.17",
+        "path": "/ports/LPN1FGEM/1/meter/ch10",
+        "desc": "R11 전열부하"
+      },
+      "ch11": {
+        "gwid": 32,
+        "url": "http://10.100.1.17",
+        "path": "/ports/LPN1FGEM/1/meter/ch11",
+        "desc": "R04 전열부하"
+      },
+      "ch12": {
+        "gwid": 32,
+        "url": "http://10.100.1.17",
+        "path": "/ports/LPN1FGEM/1/meter/ch12",
+        "desc": "R02 전열부하"
+      },
+      "ch13": {
+        "gwid": 32,
+        "url": "http://10.100.1.17",
+        "path": "/ports/LPN1FGEM/1/meter/ch13",
+        "desc": "L01 전등부하"
+      },
+      "ch14": {
+        "gwid": 32,
+        "url": "http://10.100.1.17",
+        "path": "/ports/LPN1FGEM/1/meter/ch14",
+        "desc": "R10 전열부하"
+      },
+      "ch15": {
+        "gwid": 32,
+        "url": "http://10.100.1.17",
+        "path": "/ports/LPN1FGEM/1/meter/ch15",
+        "desc": "R08 전열부하"
+      },
+      "ch16": {
+        "gwid": 32,
+        "url": "http://10.100.1.17",
+        "path": "/ports/LPN1FGEM/1/meter/ch16",
+        "desc": "R06 전열부하"
+      },
+      "ch17": {
+        "gwid": 32,
+        "url": "http://10.100.1.17",
+        "path": "/ports/LPN1FGEM/1/meter/ch17",
+        "desc": "R16 전열부하"
+      },
+      "ch18": {
+        "gwid": 32,
+        "url": "http://10.100.1.17",
+        "path": "/ports/LPN1FGEM/1/meter/ch18",
+        "desc": "R14 전열부하"
+      },
+      "ch19": {
+        "gwid": 32,
+        "url": "http://10.100.1.17",
+        "path": "/ports/LPN1FGEM/1/meter/ch19",
+        "desc": "R12 전열부하"
+      },
+      "ch20": {
+        "gwid": 32,
+        "url": "http://10.100.1.17",
+        "path": "/ports/LPN1FGEM/1/meter/ch20",
+        "desc": "R13 전열부하"
+      },
+      "ch21": {
+        "gwid": 32,
+        "url": "http://10.100.1.17",
+        "path": "/ports/LPN1FGEM/1/meter/ch21",
+        "desc": "R15 전열부하"
+      },
+      "ch22": {
+        "gwid": 32,
+        "url": "http://10.100.1.17",
+        "path": "/ports/LPN1FGEM/1/meter/ch22",
+        "desc": "H01 HUB전원"
+      },
+      "ch23": {
+        "gwid": 32,
+        "url": "http://10.100.1.17",
+        "path": "/ports/LPN1FGEM/1/meter/ch23",
+        "desc": "SPARE"
+      }
+    },
+    "LPN-2F": {
+      "ch1": {
+        "gwid": 33,
+        "url": "http://10.100.1.18",
+        "path": "/ports/LPN2FGEM/1/meter/ch1",
+        "desc": "LPN-2F-MAIN"
+      },
+      "ch2": {
+        "gwid": 33,
+        "url": "http://10.100.1.18",
+        "path": "/ports/LPN2FGEM/1/meter/ch2",
+        "desc": "LPN-2-1"
+      },
+      "ch3": {
+        "gwid": 33,
+        "url": "http://10.100.1.18",
+        "path": "/ports/LPN2FGEM/1/meter/ch3",
+        "desc": "R05 전열부하"
+      },
+      "ch4": {
+        "gwid": 33,
+        "url": "http://10.100.1.18",
+        "path": "/ports/LPN2FGEM/1/meter/ch4",
+        "desc": "R03 전열부하"
+      },
+      "ch5": {
+        "gwid": 33,
+        "url": "http://10.100.1.18",
+        "path": "/ports/LPN2FGEM/1/meter/ch5",
+        "desc": "R01 전열부하"
+      },
+      "ch6": {
+        "gwid": 33,
+        "url": "http://10.100.1.18",
+        "path": "/ports/LPN2FGEM/1/meter/ch6",
+        "desc": "P1 ELEV 제어반"
+      },
+      "ch7": {
+        "gwid": 33,
+        "url": "http://10.100.1.18",
+        "path": "/ports/LPN2FGEM/1/meter/ch7",
+        "desc": "LPN-2-2"
+      },
+      "ch8": {
+        "gwid": 33,
+        "url": "http://10.100.1.18",
+        "path": "/ports/LPN2FGEM/1/meter/ch8",
+        "desc": "L01 전등부하"
+      },
+      "ch9": {
+        "gwid": 33,
+        "url": "http://10.100.1.18",
+        "path": "/ports/LPN2FGEM/1/meter/ch9",
+        "desc": "R02 전열부하"
+      },
+      "ch10": {
+        "gwid": 33,
+        "url": "http://10.100.1.18",
+        "path": "/ports/LPN2FGEM/1/meter/ch10",
+        "desc": "R04 전열부하"
+      },
+      "ch11": {
+        "gwid": 33,
+        "url": "http://10.100.1.18",
+        "path": "/ports/LPN2FGEM/1/meter/ch11",
+        "desc": "R07 전열부하"
+      },
+      "ch12": {
+        "gwid": 33,
+        "url": "http://10.100.1.18",
+        "path": "/ports/LPN2FGEM/1/meter/ch12",
+        "desc": "R06 전열부하"
+      },
+      "ch13": {
+        "gwid": 33,
+        "url": "http://10.100.1.18",
+        "path": "/ports/LPN2FGEM/1/meter/ch13",
+        "desc": "R08 전열부하"
+      }
+    },
+    "EV-107": {
+      "ch1": {
+        "gwid": 1,
+        "url": "http://10.107.3.17",
+        "path": "/ports/LM107GEM/1/meter/ch1",
+        "desc": "EV-107-MAIN"
+      },
+      "ch2": {
+        "gwid": 1,
+        "url": "http://10.107.3.17",
+        "path": "/ports/LM107GEM/1/meter/ch2",
+        "desc": "EM-107-MAIN"
+      },
+      "ch3": {
+        "gwid": 1,
+        "url": "http://10.107.3.17",
+        "path": "/ports/LM107GEM/1/meter/ch3",
+        "desc": "재활용보관소"
+      },
+      "ch4": {
+        "gwid": 1,
+        "url": "http://10.107.3.17",
+        "path": "/ports/LM107GEM/1/meter/ch4",
+        "desc": "EV-104"
+      },
+      "ch5": {
+        "gwid": 1,
+        "url": "http://10.107.3.17",
+        "path": "/ports/LM107GEM/1/meter/ch5",
+        "desc": "EV-105"
+      },
+      "ch6": {
+        "gwid": 1,
+        "url": "http://10.107.3.17",
+        "path": "/ports/LM107GEM/1/meter/ch6",
+        "desc": "EV-107-1"
+      },
+      "ch7": {
+        "gwid": 1,
+        "url": "http://10.107.3.17",
+        "path": "/ports/LM107GEM/1/meter/ch7",
+        "desc": "EV-107-2"
+      },
+      "ch8": {
+        "gwid": 1,
+        "url": "http://10.107.3.17",
+        "path": "/ports/LM107GEM/1/meter/ch8",
+        "desc": "EV-107-3"
+      },
+      "ch9": {
+        "gwid": 1,
+        "url": "http://10.107.3.17",
+        "path": "/ports/LM107GEM/1/meter/ch9",
+        "desc": "스마트파고라1"
+      },
+      "ch10": {
+        "gwid": 1,
+        "url": "http://10.107.3.17",
+        "path": "/ports/LM107GEM/1/meter/ch10",
+        "desc": "스마트벤치1"
+      },
+      "ch11": {
+        "gwid": 1,
+        "url": "http://10.107.3.17",
+        "path": "/ports/LM107GEM/1/meter/ch11",
+        "desc": "TV"
+      },
+      "ch12": {
+        "gwid": 1,
+        "url": "http://10.107.3.17",
+        "path": "/ports/LM107GEM/1/meter/ch12",
+        "desc": "EV-108-2"
+      },
+      "ch13": {
+        "gwid": 1,
+        "url": "http://10.107.3.17",
+        "path": "/ports/LM107GEM/1/meter/ch13",
+        "desc": "EV-108-1"
+      },
+      "ch14": {
+        "gwid": 1,
+        "url": "http://10.107.3.17",
+        "path": "/ports/LM107GEM/1/meter/ch14",
+        "desc": "EV-106"
+      },
+      "ch15": {
+        "gwid": 1,
+        "url": "http://10.107.3.17",
+        "path": "/ports/LM107GEM/1/meter/ch15",
+        "desc": "EV-108-3"
+      },
+      "ch16": {
+        "gwid": 1,
+        "url": "http://10.107.3.17",
+        "path": "/ports/LM107GEM/1/meter/ch16",
+        "desc": "CCTV"
+      },
+      "ch17": {
+        "gwid": 1,
+        "url": "http://10.107.3.17",
+        "path": "/ports/LM107GEM/1/meter/ch17",
+        "desc": "HUB"
+      },
+      "ch18": {
+        "gwid": 1,
+        "url": "http://10.107.3.17",
+        "path": "/ports/LM107GEM/1/meter/ch18",
+        "desc": "SPARE"
+      },
+      "ch19": {
+        "gwid": 1,
+        "url": "http://10.107.3.17",
+        "path": "/ports/LM107GEM/1/meter/ch19",
+        "desc": "전기"
+      },
+      "ch20": {
+        "gwid": 1,
+        "url": "http://10.107.3.17",
+        "path": "/ports/LM107GEM/1/meter/ch20",
+        "desc": "스마트벤치"
+      },
+      "ch21": {
+        "gwid": 1,
+        "url": "http://10.107.3.17",
+        "path": "/ports/LM107GEM/1/meter/ch21",
+        "desc": "스마트파고라"
+      }
+    },
+    "EV-109": {
+      "ch1": {
+        "gwid": 2,
+        "url": "http://10.109.3.17",
+        "path": "/ports/LM109GEM/1/meter/ch1",
+        "desc": "EV-109-MAIN"
+      },
+      "ch2": {
+        "gwid": 2,
+        "url": "http://10.109.3.17",
+        "path": "/ports/LM109GEM/1/meter/ch2",
+        "desc": "EM-109-MAIN"
+      },
+      "ch3": {
+        "gwid": 2,
+        "url": "http://10.109.3.17",
+        "path": "/ports/LM109GEM/1/meter/ch3",
+        "desc": "재활용보관소"
+      },
+      "ch4": {
+        "gwid": 2,
+        "url": "http://10.109.3.17",
+        "path": "/ports/LM109GEM/1/meter/ch4",
+        "desc": "EV-102"
+      },
+      "ch5": {
+        "gwid": 2,
+        "url": "http://10.109.3.17",
+        "path": "/ports/LM109GEM/1/meter/ch5",
+        "desc": "EV-109-1"
+      },
+      "ch6": {
+        "gwid": 2,
+        "url": "http://10.109.3.17",
+        "path": "/ports/LM109GEM/1/meter/ch6",
+        "desc": "EV-109-2"
+      },
+      "ch7": {
+        "gwid": 2,
+        "url": "http://10.109.3.17",
+        "path": "/ports/LM109GEM/1/meter/ch7",
+        "desc": "EV-109-3"
+      },
+      "ch8": {
+        "gwid": 2,
+        "url": "http://10.109.3.17",
+        "path": "/ports/LM109GEM/1/meter/ch8",
+        "desc": "스마트테크"
+      },
+      "ch9": {
+        "gwid": 2,
+        "url": "http://10.109.3.17",
+        "path": "/ports/LM109GEM/1/meter/ch9",
+        "desc": "TV"
+      },
+      "ch10": {
+        "gwid": 2,
+        "url": "http://10.109.3.17",
+        "path": "/ports/LM109GEM/1/meter/ch10",
+        "desc": "CCTV"
+      },
+      "ch11": {
+        "gwid": 2,
+        "url": "http://10.109.3.17",
+        "path": "/ports/LM109GEM/1/meter/ch11",
+        "desc": "EV-110-2"
+      },
+      "ch12": {
+        "gwid": 2,
+        "url": "http://10.109.3.17",
+        "path": "/ports/LM109GEM/1/meter/ch12",
+        "desc": "EV-110-1"
+      },
+      "ch13": {
+        "gwid": 2,
+        "url": "http://10.109.3.17",
+        "path": "/ports/LM109GEM/1/meter/ch13",
+        "desc": "EV-103"
+      },
+      "ch14": {
+        "gwid": 2,
+        "url": "http://10.109.3.17",
+        "path": "/ports/LM109GEM/1/meter/ch14",
+        "desc": "EV-110-3"
+      },
+      "ch15": {
+        "gwid": 2,
+        "url": "http://10.109.3.17",
+        "path": "/ports/LM109GEM/1/meter/ch15",
+        "desc": "HUB"
+      },
+      "ch16": {
+        "gwid": 2,
+        "url": "http://10.109.3.17",
+        "path": "/ports/LM109GEM/1/meter/ch16",
+        "desc": "전기차"
+      }
+    },
+    "EV-111": {
+      "ch1": {
+        "gwid": 3,
+        "url": "http://10.111.3.17",
+        "path": "/ports/LM111GEM/1/meter/ch1",
+        "desc": "EV-111-MAIN"
+      },
+      "ch2": {
+        "gwid": 3,
+        "url": "http://10.111.3.17",
+        "path": "/ports/LM111GEM/1/meter/ch2",
+        "desc": "EM-111-MAIN"
+      },
+      "ch3": {
+        "gwid": 3,
+        "url": "http://10.111.3.17",
+        "path": "/ports/LM111GEM/1/meter/ch3",
+        "desc": "코리더 태양광용2"
+      },
+      "ch4": {
+        "gwid": 3,
+        "url": "http://10.111.3.17",
+        "path": "/ports/LM111GEM/1/meter/ch4",
+        "desc": "조경전원"
+      },
+      "ch5": {
+        "gwid": 3,
+        "url": "http://10.111.3.17",
+        "path": "/ports/LM111GEM/1/meter/ch5",
+        "desc": "코리더 태양광용1"
+      },
+      "ch6": {
+        "gwid": 3,
+        "url": "http://10.111.3.17",
+        "path": "/ports/LM111GEM/1/meter/ch6",
+        "desc": "EV-101"
+      },
+      "ch7": {
+        "gwid": 3,
+        "url": "http://10.111.3.17",
+        "path": "/ports/LM111GEM/1/meter/ch7",
+        "desc": "EV-111-1"
+      },
+      "ch8": {
+        "gwid": 3,
+        "url": "http://10.111.3.17",
+        "path": "/ports/LM111GEM/1/meter/ch8",
+        "desc": "EV-111-2"
+      },
+      "ch9": {
+        "gwid": 3,
+        "url": "http://10.111.3.17",
+        "path": "/ports/LM111GEM/1/meter/ch9",
+        "desc": "재활용보관소"
+      },
+      "ch10": {
+        "gwid": 3,
+        "url": "http://10.111.3.17",
+        "path": "/ports/LM111GEM/1/meter/ch10",
+        "desc": "EV-112-3"
+      },
+      "ch11": {
+        "gwid": 3,
+        "url": "http://10.111.3.17",
+        "path": "/ports/LM111GEM/1/meter/ch11",
+        "desc": "EV-112-2"
+      },
+      "ch12": {
+        "gwid": 3,
+        "url": "http://10.111.3.17",
+        "path": "/ports/LM111GEM/1/meter/ch12",
+        "desc": "EV-112-1"
+      },
+      "ch13": {
+        "gwid": 3,
+        "url": "http://10.111.3.17",
+        "path": "/ports/LM111GEM/1/meter/ch13",
+        "desc": "HUB"
+      },
+      "ch14": {
+        "gwid": 3,
+        "url": "http://10.111.3.17",
+        "path": "/ports/LM111GEM/1/meter/ch14",
+        "desc": "전기차"
+      },
+      "ch15": {
+        "gwid": 3,
+        "url": "http://10.111.3.17",
+        "path": "/ports/LM111GEM/1/meter/ch15",
+        "desc": "EV-111-3"
+      },
+      "ch16": {
+        "gwid": 3,
+        "url": "http://10.111.3.17",
+        "path": "/ports/LM111GEM/1/meter/ch16",
+        "desc": "스마트폴1"
+      },
+      "ch17": {
+        "gwid": 3,
+        "url": "http://10.111.3.17",
+        "path": "/ports/LM111GEM/1/meter/ch17",
+        "desc": "TV"
+      }
+    },
+    "EV-114": {
+      "ch1": {
+        "gwid": 4,
+        "url": "http://10.114.3.17",
+        "path": "/ports/LM114GEM/1/meter/ch1",
+        "desc": "EV-114-MAIN"
+      },
+      "ch2": {
+        "gwid": 4,
+        "url": "http://10.114.3.17",
+        "path": "/ports/LM114GEM/1/meter/ch2",
+        "desc": "EM-114-MAIN"
+      },
+      "ch3": {
+        "gwid": 4,
+        "url": "http://10.114.3.17",
+        "path": "/ports/LM114GEM/1/meter/ch3",
+        "desc": "재활용보관소"
+      },
+      "ch4": {
+        "gwid": 4,
+        "url": "http://10.114.3.17",
+        "path": "/ports/LM114GEM/1/meter/ch4",
+        "desc": "EV-113-1"
+      },
+      "ch5": {
+        "gwid": 4,
+        "url": "http://10.114.3.17",
+        "path": "/ports/LM114GEM/1/meter/ch5",
+        "desc": "EV-113-2"
+      },
+      "ch6": {
+        "gwid": 4,
+        "url": "http://10.114.3.17",
+        "path": "/ports/LM114GEM/1/meter/ch6",
+        "desc": "EV-113-3"
+      },
+      "ch7": {
+        "gwid": 4,
+        "url": "http://10.114.3.17",
+        "path": "/ports/LM114GEM/1/meter/ch7",
+        "desc": "EV-115"
+      },
+      "ch8": {
+        "gwid": 4,
+        "url": "http://10.114.3.17",
+        "path": "/ports/LM114GEM/1/meter/ch8",
+        "desc": "EV-116"
+      },
+      "ch9": {
+        "gwid": 4,
+        "url": "http://10.114.3.17",
+        "path": "/ports/LM114GEM/1/meter/ch9",
+        "desc": "EV-117"
+      },
+      "ch10": {
+        "gwid": 4,
+        "url": "http://10.114.3.17",
+        "path": "/ports/LM114GEM/1/meter/ch10",
+        "desc": "EV-121"
+      },
+      "ch11": {
+        "gwid": 4,
+        "url": "http://10.114.3.17",
+        "path": "/ports/LM114GEM/1/meter/ch11",
+        "desc": "EV-114-3"
+      },
+      "ch12": {
+        "gwid": 4,
+        "url": "http://10.114.3.17",
+        "path": "/ports/LM114GEM/1/meter/ch12",
+        "desc": "EV-114-2"
+      },
+      "ch13": {
+        "gwid": 4,
+        "url": "http://10.114.3.17",
+        "path": "/ports/LM114GEM/1/meter/ch13",
+        "desc": "EV-114-1"
+      },
+      "ch14": {
+        "gwid": 4,
+        "url": "http://10.114.3.17",
+        "path": "/ports/LM114GEM/1/meter/ch14",
+        "desc": "EV-120"
+      },
+      "ch15": {
+        "gwid": 4,
+        "url": "http://10.114.3.17",
+        "path": "/ports/LM114GEM/1/meter/ch15",
+        "desc": "EV-119"
+      },
+      "ch16": {
+        "gwid": 4,
+        "url": "http://10.114.3.17",
+        "path": "/ports/LM114GEM/1/meter/ch16",
+        "desc": "EV-118"
+      },
+      "ch17": {
+        "gwid": 4,
+        "url": "http://10.114.3.17",
+        "path": "/ports/LM114GEM/1/meter/ch17",
+        "desc": "스마트 신호등"
+      },
+      "ch18": {
+        "gwid": 4,
+        "url": "http://10.114.3.17",
+        "path": "/ports/LM114GEM/1/meter/ch18",
+        "desc": "TV"
+      },
+      "ch19": {
+        "gwid": 4,
+        "url": "http://10.114.3.17",
+        "path": "/ports/LM114GEM/1/meter/ch19",
+        "desc": "CCTV"
+      },
+      "ch20": {
+        "gwid": 4,
+        "url": "http://10.114.3.17",
+        "path": "/ports/LM114GEM/1/meter/ch20",
+        "desc": "무빙이닝"
+      },
+      "ch21": {
+        "gwid": 4,
+        "url": "http://10.114.3.17",
+        "path": "/ports/LM114GEM/1/meter/ch21",
+        "desc": "HUB"
+      },
+      "ch22": {
+        "gwid": 4,
+        "url": "http://10.114.3.17",
+        "path": "/ports/LM114GEM/1/meter/ch22",
+        "desc": "전기차"
+      }
+    },
+    "Facility-PV": {
+      "lwp-rooftop-pv": {
+        "gwid": 35,
+        "url": "http://10.1.1.31:8084",
+        "path": "/ports/vm/1/meter/ch1",
+        "desc": "LWP 지붕 태양광"
+      },
+      "lwp-BI-pv": {
+        "gwid": 35,
+        "url": "http://10.1.1.31:8084",
+        "path": "/ports/vm/2/meter/ch1",
+        "desc": "LWP BI PV"
+      },
+      "corridor-01-pv": {
+        "gwid": 35,
+        "url": "http://10.1.1.31:8084",
+        "path": "/ports/vm/9/meter/ch1",
+        "desc": "1단지 회랑"
+      },
+      "community-rooftop-pv": {
+        "gwid": 35,
+        "url": "http://10.1.1.31:8084",
+        "path": "/ports/vm/7/meter/ch1",
+        "desc": "커뮤니티 센터 지붕 PV"
+      },
+      "community-BI-pv": {
+        "gwid": 35,
+        "url": "http://10.1.1.31:8084",
+        "path": "/ports/vm/8/meter/ch1",
+        "desc": "커뮤니티 센터 BI PV"
+      },
+      "parkingLot-pv": {
+        "gwid": 35,
+        "url": "http://10.1.1.31:8084",
+        "path": "/ports/vm/5/meter/ch1",
+        "desc": "주차장 PV"
+      },
+      "corridor-02-pv": {
+        "gwid": 35,
+        "url": "http://10.1.1.31:8084",
+        "path": "/ports/vm/6/meter/ch1",
+        "desc": "2단지 회랑"
+      },
+      "pv-sum": {
+        "gwid": 35,
+        "url": "http://10.1.1.31:8084",
+        "path": "/ports/vm/10/meter/ch1",
+        "desc": "전체 태양광 에너지"
+      }
+    }
+  }
+}

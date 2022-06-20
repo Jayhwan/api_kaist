@@ -1,0 +1,396 @@
+{
+  "houses":{
+    "101": {
+      "gwid": 3,
+      "url": "http://10.111.3.17",
+      "net": "/ports/LM111/24/meter/ch1",
+      "pv": "/ports/vm/1010/meter/ch1",
+      "load": "/ports/lp/1010/meter/ch1"
+    },
+    "102": {
+      "gwid": 2,
+      "url": "http://10.109.3.17",
+      "net": "/ports/LM109/1E/meter/ch1",
+      "pv": "/ports/vm/1020/meter/ch1",
+      "load": "/ports/ld/1020/meter/ch1"
+    },
+    "103": {
+      "gwid": 2,
+      "url": "http://10.109.3.17",
+      "net": "/ports/LM109/2D/meter/ch1",
+      "pv": "/ports/vm/1030/meter/ch1",
+      "load": "/ports/ld/1030/meter/ch1"
+    },
+    "104": {
+      "gwid": 1,
+      "url": "http://10.107.3.17",
+      "net": "/ports/LM107/22/meter/ch1",
+      "pv": "/ports/vm/1040/meter/ch1",
+      "load": "/ports/ld/1040/meter/ch1"
+    },
+    "105": {
+      "gwid": 1,
+      "url": "http://10.107.3.17",
+      "net": "/ports/LM107/2C/meter/ch1",
+      "pv": "/ports/vm/1050/meter/ch1",
+      "load": "/ports/ld/1050/meter/ch1"
+    },
+    "106": {
+      "gwid": 1,
+      "url": "http://10.107.3.17",
+      "net": "/ports/LM107/2B/meter/ch1",
+      "pv": "/ports/vm/1060/meter/ch1",
+      "load": "/ports/ld/1060/meter/ch1"
+    },
+    "107-1": {
+      "gwid": 1,
+      "url": "http://10.107.3.17",
+      "net": "/ports/LM107/27/meter/ch1",
+      "pv": "/ports/vm/1071/meter/ch1",
+      "load": "/ports/ld/1071/meter/ch1"
+    },
+    "107-2": {
+      "gwid": 1,
+      "url": "http://10.107.3.17",
+      "net": "/ports/LM107/21/meter/ch1",
+      "pv": "/ports/vm/1072/meter/ch1",
+      "load": "/ports/ld/1072/meter/ch1"
+    },
+    "107-3": {
+      "gwid": 1,
+      "url": "http://10.107.3.17",
+      "net": "/ports/LM107/20/meter/ch1",
+      "pv": "/ports/vm/1073/meter/ch1",
+      "load": "/ports/ld/1073/meter/ch1"
+    },
+    "108-1": {
+      "gwid": 1,
+      "url": "http://10.107.3.17",
+      "net": "/ports/LM107/32/meter/ch1",
+      "pv": "/ports/vm/1081/meter/ch1",
+      "load": "/ports/ld/1081/meter/ch1"
+    },
+    "108-2": {
+      "gwid": 1,
+      "url": "http://10.107.3.17",
+      "net": "/ports/LM107/34/meter/ch1",
+      "pv": "/ports/vm/1082/meter/ch1",
+      "load": "/ports/ld/1082/meter/ch1"
+    },
+    "108-3": {
+      "gwid": 1,
+      "url": "http://10.107.3.17",
+      "net": "/ports/LM107/36/meter/ch1",
+      "pv": "/ports/vm/1083/meter/ch1",
+      "load": "/ports/ld/1083/meter/ch1"
+    },
+    "109-1": {
+      "gwid": 2,
+      "url": "http://10.109.3.17",
+      "net": "/ports/LM109/2A/meter/ch1",
+      "pv": "/ports/vm/1091/meter/ch1",
+      "load": "/ports/ld/1091/meter/ch1"
+    },
+    "109-2": {
+      "gwid": 2,
+      "url": "http://10.109.3.17",
+      "net": "/ports/LM109/26/meter/ch1",
+      "pv": "/ports/vm/1092/meter/ch1",
+      "load": "/ports/ld/1092/meter/ch1"
+    },
+    "109-3": {
+      "gwid": 2,
+      "url": "http://10.109.3.17",
+      "net": "/ports/LM109/25/meter/ch1",
+      "pv": "/ports/vm/1093/meter/ch1",
+      "load": "/ports/ld/1093/meter/ch1"
+    },
+    "110-1": {
+      "gwid": 2,
+      "url": "http://10.109.3.17",
+      "net": "/ports/LM109/37/meter/ch1",
+      "pv": "/ports/vm/1101/meter/ch1",
+      "load": "/ports/ld/1101/meter/ch1"
+    },
+    "110-2": {
+      "gwid": 2,
+      "url": "http://10.109.3.17",
+      "net": "/ports/LM109/38/meter/ch1",
+      "pv": "/ports/vm/1102/meter/ch1",
+      "load": "/ports/ld/1102/meter/ch1"
+    },
+    "110-3": {
+      "gwid": 2,
+      "url": "http://10.109.3.17",
+      "net": "/ports/LM109/14/meter/ch1",
+      "pv": "/ports/vm/1103/meter/ch1",
+      "load": "/ports/ld/1103/meter/ch1"
+    },
+    "111-1": {
+      "gwid": 3,
+      "url": "http://10.111.3.17",
+      "net": "/ports/LM111/29/meter/ch1",
+      "pv": "/ports/vm/1111/meter/ch1",
+      "load": "/ports/lp/1111/meter/ch1"
+    },
+    "111-2": {
+      "gwid": 3,
+      "url": "http://10.111.3.17",
+      "net": "/ports/LM111/1F/meter/ch1",
+      "pv": "/ports/vm/1112/meter/ch1",
+      "load": "/ports/lp/1112/meter/ch1"
+    },
+    "111-3": {
+      "gwid": 3,
+      "url": "http://10.111.3.17",
+      "net": "/ports/LM111/23/meter/ch1",
+      "pv": "/ports/vm/1113/meter/ch1",
+      "load": "/ports/lp/1113/meter/ch1"
+    },
+    "112-1": {
+      "gwid": 3,
+      "url": "http://10.111.3.17",
+      "net": "/ports/LM111/2F/meter/ch1",
+      "pv": "/ports/vm/1121/meter/ch1",
+      "load": "/ports/lp/1121/meter/ch1"
+    },
+    "112-2": {
+      "gwid": 3,
+      "url": "http://10.111.3.17",
+      "net": "/ports/LM111/35/meter/ch1",
+      "pv": "/ports/vm/1122/meter/ch1",
+      "load": "/ports/lp/1122/meter/ch1"
+    },
+    "112-3": {
+      "gwid": 3,
+      "url": "http://10.111.3.17",
+      "net": "/ports/LM111/33/meter/ch1",
+      "pv": "/ports/vm/1123/meter/ch1",
+      "load": "/ports/lp/1123/meter/ch1"
+    },
+    "113-1": {
+      "gwid": 4,
+      "url": "http://10.114.3.17",
+      "net": "/ports/LM114/19/meter/ch1",
+      "pv": "/ports/vm/1131/meter/ch1",
+      "load": "/ports/ld/1131/meter/ch1"
+    },
+    "113-2": {
+      "gwid": 4,
+      "url": "http://10.114.3.17",
+      "net": "/ports/LM114/30/meter/ch1",
+      "pv": "/ports/vm/1132/meter/ch1",
+      "load": "/ports/ld/1132/meter/ch1"
+    },
+    "113-3": {
+      "gwid": 4,
+      "url": "http://10.114.3.17",
+      "net": "/ports/LM114/18/meter/ch1",
+      "pv": "/ports/vm/1133/meter/ch1",
+      "load": "/ports/ld/1133/meter/ch1"
+    },
+    "114-1": {
+      "gwid": 4,
+      "url": "http://10.114.3.17",
+      "net": "/ports/LM114/1d/meter/ch1",
+      "pv": "/ports/vm/1141/meter/ch1",
+      "load": "/ports/ld/1141/meter/ch1"
+    },
+    "114-2": {
+      "gwid": 4,
+      "url": "http://10.114.3.17",
+      "net": "/ports/LM114/15/meter/ch1",
+      "pv": "/ports/vm/1142/meter/ch1",
+      "load": "/ports/ld/1142/meter/ch1"
+    },
+    "114-3": {
+      "gwid": 4,
+      "url": "http://10.114.3.17",
+      "net": "/ports/LM114/31/meter/ch1",
+      "pv": "/ports/vm/1143/meter/ch1",
+      "load": "/ports/ld/1143/meter/ch1"
+    },
+    "115": {
+      "gwid": 4,
+      "url": "http://10.114.3.17",
+      "net": "/ports/LM114/28/meter/ch1",
+      "pv": "/ports/vm/1150/meter/ch1",
+      "load": "/ports/ld/1150/meter/ch1"
+    },
+    "116": {
+      "gwid": 4,
+      "url": "http://10.114.3.17",
+      "net": "/ports/LM114/1c/meter/ch1",
+      "pv": "/ports/vm/1160/meter/ch1",
+      "load": "/ports/ld/1160/meter/ch1"
+    },
+    "117": {
+      "gwid": 4,
+      "url": "http://10.114.3.17",
+      "net": "/ports/LM114/17/meter/ch1",
+      "pv": "/ports/vm/1170/meter/ch1",
+      "load": "/ports/ld/1170/meter/ch1"
+    },
+    "118": {
+      "gwid": 4,
+      "url": "http://10.114.3.17",
+      "net": "/ports/LM114/1a/meter/ch1",
+      "pv": "/ports/vm/1180/meter/ch1",
+      "load": "/ports/ld/1180/meter/ch1"
+    },
+    "119": {
+      "gwid": 4,
+      "url": "http://10.114.3.17",
+      "net": "/ports/LM114/2e/meter/ch1",
+      "pv": "/ports/vm/1190/meter/ch1",
+      "load": "/ports/ld/1190/meter/ch1"
+    },
+    "120": {
+      "gwid": 4,
+      "url": "http://10.114.3.17",
+      "net": "/ports/LM114/1b/meter/ch1",
+      "pv": "/ports/vm/1200/meter/ch1",
+      "load": "/ports/ld/1200/meter/ch1"
+    },
+    "121": {
+      "gwid": 4,
+      "url": "http://10.114.3.17",
+      "net": "/ports/LM114/16/meter/ch1",
+      "pv": "/ports/vm/1210/meter/ch1",
+      "load": "/ports/ld/1210/meter/ch1"
+    },
+    "201":{
+      "gwid": 11,
+      "url":"http://10.201.0.17",
+      "net":"/ports/SD201/26/meter/ch1",
+      "pv":"/ports/vm/2010/meter/ch1",
+      "load":"/ports/ld/2010/meter/ch1"
+    },
+    "202":{
+      "gwid": 12,
+      "url":"http://10.202.0.17",
+      "net":"/ports/SD202/27/meter/ch1",
+      "pv":"/ports/vm/2020/meter/ch1",
+      "load":"/ports/ld/2020/meter/ch1"
+    },
+    "203":{
+      "gwid": 13,
+      "url":"http://10.203.0.17",
+      "net":"/ports/SD203/28/meter/ch1",
+      "pv":"/ports/vm/2030/meter/ch1",
+      "load":"/ports/ld/2030/meter/ch1"
+    },
+    "204":{
+      "gwid": 14,
+      "url":"http://10.204.0.17",
+      "net":"/ports/SD204/29/meter/ch1",
+      "pv": "/ports/vm/2040/meter/ch1",
+      "load": "/ports/ld/2040/meter/ch1"
+    },
+    "205":{
+      "gwid": 15,
+      "url":"http://10.205.0.17",
+      "net":"/ports/SD205/2A/meter/ch1",
+      "pv": "/ports/vm/2050/meter/ch1",
+      "load": "/ports/ld/2050/meter/ch1"
+    },
+    "206-1":{
+      "gwid": 17,
+      "url":"http://10.206.1.17",
+      "net":"/ports/SD206B/2C/meter/ch1",
+      "pv": "/ports/vm/2060/meter/ch1",
+      "load": "/ports/ld/2060/meter/ch1"
+    },
+    "206-2":{
+      "gwid": 16,
+      "url":"http://10.206.1.16",
+      "net":"/ports/SD206A/2B/meter/ch1",
+      "pv": "/ports/vm/2060/meter/ch1",
+      "load": "/ports/ld/2060/meter/ch1"
+    },
+    "207-1":{
+      "gwid": 18,
+      "url":"http://10.207.1.17",
+      "net":"/ports/SD207A/2D/meter/ch1",
+      "pv": "/ports/vm/2071/meter/ch1",
+      "load": "/ports/ld/2071/meter/ch1"
+    },
+    "207-2":{
+      "gwid": 19,
+      "url":"http://10.207.2.17",
+      "net":"/ports/SD207B/2E/meter/ch1",
+      "pv": "/ports/vm/2072/meter/ch1",
+      "load": "/ports/ld/2072/meter/ch1"
+    },
+    "207-3":{
+      "gwid": 20,
+      "url":"http://10.207.3.17",
+      "net":"/ports/SD207A2/2F/meter/ch1",
+      "pv": "/ports/vm/2073/meter/ch1",
+      "load": "/ports/ld/2073/meter/ch1"
+    },
+    "208-1":{
+      "gwid": 21,
+      "url":"http://10.208.1.17",
+      "net":"/ports/SD208C/30/meter/ch1",
+      "pv": "/ports/vm/2081/meter/ch1",
+      "load": "/ports/ld/2081/meter/ch1"
+    },
+    "208-2": {
+      "gwid": 22,
+      "url":"http://10.208.2.17",
+      "net":"/ports/SD208D/31/meter/ch1",
+      "pv": "/ports/vm/2082/meter/ch1",
+      "load": "/ports/ld/2082/meter/ch1"
+    },
+    "208-3":{
+      "gwid": 23,
+      "url":"http://10.208.3.17",
+      "net":"/ports/SD208C2/32/meter/ch1",
+      "pv": "/ports/vm/2083/meter/ch1",
+      "load": "/ports/ld/2083/meter/ch1"
+    },
+    "209-1":{
+      "gwid": 24,
+      "url":"http://10.209.1.17",
+      "net":"/ports/SD209A/33/meter/ch1",
+      "pv": "/ports/vm/2091/meter/ch1",
+      "load": "/ports/ld/2091/meter/ch1"
+    },
+    "209-2":{
+      "gwid": 25,
+      "url":"http://10.209.2.17",
+      "net":"/ports/SD209B/34/meter/ch1",
+      "pv": "/ports/vm/2092/meter/ch1",
+      "load": "/ports/ld/2092/meter/ch1"
+    },
+    "209-3":{
+      "gwid": 26,
+      "url":"http://10.209.3.17",
+      "net":"/ports/SD209A2/35/meter/ch1",
+      "pv": "/ports/vm/2093/meter/ch1",
+      "load": "/ports/ld/2093/meter/ch1"
+    },
+    "210-1":{
+      "gwid": 27,
+      "url":"http://10.210.1.17",
+      "net":"/ports/S201C/36/meter/ch1",
+      "pv": "/ports/vm/2101/meter/ch1",
+      "load": "/ports/ld/2101/meter/ch1"
+    },
+    "210-2":{
+      "gwid": 28,
+      "url":"http://10.210.2.17",
+      "net":"/ports/SD210D/37/meter/ch1",
+      "pv": "/ports/vm/2102/meter/ch1",
+      "load": "/ports/ld/2102/meter/ch1"
+    },
+    "210-3":{
+      "gwid": 29,
+      "url":"http://10.210.3.17",
+      "net":"/ports/SD210C2/38/meter/ch1",
+      "pv": "/ports/vm/2103/meter/ch1",
+      "load": "/ports/ld/2103/meter/ch1"
+    }
+  }
+}
